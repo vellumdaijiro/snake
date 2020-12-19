@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    --map-max-height: 1000px
+    --map-max-width: 600px
+}
+
+#gameWindow {
+    border: solid 1px;
+    margin: 0 auto;
+}
+#gameWindow ul {
+    display: flex;
+}
+#gameWindow .unit {
+    background: #f00;
+    width: 10px;
+    height: 10px;
+}
+#gameWindow .unit.snake {
+    background: #0f0;
+}
+#gameWindow .unit.head {
+    background: #fff;
+}
+#gameWindow .unit.food {
+    background: #ff0;
+}
